@@ -1,11 +1,25 @@
 import './App.css';
+import WeatherApp from './WeatherApp';
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      WeatherApp
+      <div className="container">
+        <div className="wrapper">
+          <WeatherApp defaultCity="Moralzarzal" />
+          <small>
+            <a
+              href="https://github.com/grungebarb/react-weather-app"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open source code
+            </a>{" "}
+            by GrungeBarb (Bárbara Llansó Di Renzo)
+          </small>
+        </div>
+      </div>
     </div>
   );
 }
 
-export default App;

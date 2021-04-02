@@ -1,0 +1,21 @@
+.WeatherApp {
+  border: 5px solid #6193d4;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 5px;
+  background-image: linear-gradient(135deg, white, rgba(97, 147, 212, 0.5));
+}
+.WeatherApp .search-form {
+  margin: 0 auto;
+}
+.WeatherApp .btn:hover {
+  color: #06193d;
+}
+.WeatherApp .search-btn {
+  background-color: #6193d4;
+  color: white;
+}
+.WeatherApp .local-time {
+  text-align: center;
+  display: block;
+}
