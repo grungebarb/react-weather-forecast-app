@@ -4,6 +4,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import "./WeatherApp.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
+import WeatherForecast from "./WeatherForecast"
 
 export default function WeatherApp(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -58,6 +59,7 @@ export default function WeatherApp(props) {
         </form>
       </div>
       <WeatherInfo data={weatherData} />
+      <WeatherForecast />
       <small className="local-time">(Hours in user's local time)</small>
     </div>
   );
