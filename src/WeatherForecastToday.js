@@ -38,10 +38,10 @@ export default function WeatherForecastToday(props) {
       <div className="row wrapper">
         <div className="col temperature">
           <div>
-            Maximum: {maxTemperature()}
+            <img src={`./icons/icon_${props.data.weather[0].icon}.png`} alt={props.data.weather[0].description}  className="weather-icon"/>
           </div>
           <div>
-            <img src={`./icons/icon_${props.data.weather[0].icon}.png`} alt={props.data.weather[0].description}  className="weather-icon"/>
+            Maximum: {maxTemperature()}
           </div>
           <div className="min-temp">
             Minimum: {minTemperature()}
