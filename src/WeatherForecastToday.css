@@ -1,0 +1,24 @@
+.WeatherForecastToday {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding-top: 15px;
+  border: 2px solid #6193d4;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 5px;
+}
+.WeatherForecastToday h1 {
+  font-size: 25px;
+}
+.WeatherForecastToday .row {
+  margin: 5px;
+}
+.WeatherForecastToday .wrapper {
+  margin: 20px;
+}
+.WeatherForecastToday .temperature {
+  margin: auto;
+}
+.WeatherForecastToday .weather-icon {
+  margin: 5px;
+  width: 90px;
+}

@@ -1,0 +1,22 @@
+.WeatherForecast {
+  text-align: center;
+  margin: 10px 0;
+}
+.WeatherForecast .separated-columns {
+  padding: 15px;
+  border: 2px solid #6193d4;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 5px;
+}
+
+.WeatherForecast .day {
+  font-size: 20px;
+}
+.WeatherForecast .min-temp {
+  opacity: 0.5;
+  margin-left: 5px;
+}
+.WeatherForecast img {
+  width: 70px;
+}

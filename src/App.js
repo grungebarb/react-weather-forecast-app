@@ -11,11 +11,12 @@ export default function App() {
             <a
               href="https://github.com/grungebarb/react-weather-app"
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
             >
               Open source code
-            </a>{" "}
-            by GrungeBarb (Bárbara Llansó Di Renzo)
+            </a> by <span title="Bárbara Llansó Di Renzo">GrungeBarb</span> and <a href="https://trusting-noether-3e107a.netlify.app/"
+              target="_blank"
+              rel="noopener noreferrer">hosted on Netlify</a>
           </small>
         </div>
       </div>

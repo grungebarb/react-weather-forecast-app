@@ -18,7 +18,7 @@ export default function WeatherInfo(props) {
           <img src={props.data.iconUrl} alt={props.data.description} className="current-icon" />
         </div>
         <Units celsius={props.data.temperature}/>
-        <div className="col-5 mt-3">
+        <div className="col-6 mt-3">
           <ul>
             <li><strong>Humidity:</strong> {props.data.humidity}%</li>
             <li><strong>Wind speed:</strong> {props.data.wind}km/h</li>

@@ -13,6 +13,7 @@ export default function WeatherApp(props) {
   function handleResponse(response) {
     setWeatherData({
       ready: true,
+      coordinates: response.data.coord,
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
       humidity: response.data.main.humidity,
@@ -59,14 +60,12 @@ export default function WeatherApp(props) {
         </form>
       </div>
       <WeatherInfo data={weatherData} />
-      <WeatherForecast />
+      <WeatherForecast coordinates={weatherData.coordinates} />
       <small className="local-time">(Hours in user's local time)</small>
     </div>
   );
   } else {
     search();
   return "Loading...";
-  }
-  
-  
+  }  
 }
