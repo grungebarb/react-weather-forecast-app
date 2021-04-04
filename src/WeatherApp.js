@@ -4,7 +4,7 @@ import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import "./WeatherApp.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
-import WeatherForecast from "./WeatherForecast"
+import WeatherForecast from "./WeatherForecast";
 
 export default function WeatherApp(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -40,7 +40,7 @@ export default function WeatherApp(props) {
     <div className="WeatherApp">
       <div className="search-section">
         <form onSubmit={handleSubmit}>
-          <div className="row search-form">
+          <div className="search-form form-row">
             <div className="col-8">
               <input
                 type="search"
@@ -52,7 +52,7 @@ export default function WeatherApp(props) {
               />
             </div>
             <div className="col">
-              <button type="submit" className="btn search-btn px-4">
+              <button type="submit" className="btn search-btn px-4 form-control">
                 <FontAwesomeIcon icon={faSearch} />
               </button>
             </div>

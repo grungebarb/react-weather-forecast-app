@@ -19,4 +19,17 @@
 }
 .WeatherInfo .current-icon {
   max-width: 120px;
+  float: left;
+}
+.WeatherInfo .centered-temperature {
+  display: inline;
+}
+.WeatherInfo .current-temperature {
+  font-size: 50px;
+  float: left;
+}
+.WeatherInfo .units {
+  font-size: 20px;
+  margin: 12px 0 0 10px;
+  float: left;
 }
